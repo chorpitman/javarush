@@ -9,12 +9,12 @@ import com.javarush.test.level04.lesson02.task02.Cat;
 public class Solution {
     public static void main(String[] args) {
         Cat cat1 = new Cat();
-        //напишите тут ваш код
         Cat.count++;
+        //напишите тут ваш код
 
         Cat cat2 = new Cat();
-        //напишите тут ваш код
         Cat.count++;
+        //напишите тут ваш код
 
         System.out.println("Cats count is " + Cat.count);
     }
